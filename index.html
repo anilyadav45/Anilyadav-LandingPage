@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anil Yadav | Exploring Code & Beyond</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Background for particles */
+    #particles-js {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0; left: 0;
+      z-index: -1;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    }
+
+    .content {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #f1f1f1;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      font-weight: 900;
+      color: #fff;
+      text-shadow: 0 0 12px rgba(255, 87, 34, 0.9);
+    }
+
+    p.subtitle {
+      font-weight: 400;
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+      color: #cbd5e1;
+      letter-spacing: 0.05em;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .social-icons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 58px;
+      height: 58px;
+      background-color: rgba(255, 255, 255, 0.08);
+      border-radius: 50%;
+      color: #ff5722;
+      font-size: 1.5rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      animation: orange-glow 2s infinite alternate;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2) rotate(6deg);
+      background-color: #ff5722;
+      color: white;
+    }
+
+    /* Orange glowing animation */
+    @keyframes orange-glow {
+      from {
+        box-shadow: 0 0 5px rgba(255, 87, 34, 0.6);
+      }
+      to {
+        box-shadow: 0 0 20px rgba(255, 87, 34, 1);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="particles-js"></div>
+
+  <div class="content">
+    <h1>Anil Yadav</h1>
+    <p class="subtitle">🚀 Research-Oriented Problem Solver</p>
+
+    <div class="social-icons">
+      <!-- GitHub -->
+      <a href="https://github.com/anilyadav45" target="_blank" aria-label="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 
+            0-.19-.01-.82-.01-1.49-2 .37-2.53-.49-2.69-.94
+            -.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53
+            .63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66
+            .07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+            0-.88.31-1.6.82-2.16-.08-.2-.36-1.01.08-2.11 
+            0 0 .67-.22 2.2.82a7.5 7.5 0 0 1 4.02 0c1.53-1.04 
+            2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 
+            1.28.82 2.16 0 3.07-1.87 3.75-3.65 3.95.29.25.54.74.54 
+            1.49 0 1.08-.01 1.95-.01 2.21 0 .21.15.46.55.38A8.01 
+            8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/anilyadav4577/" target="_blank" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 
+            0 16 .513 16 1.146v13.708c0 .633-.526 
+            1.146-1.175 1.146H1.175C.526 16 0 15.487 
+            0 14.854V1.146zM4.943 13.5V6.169H2.542V13.5h2.401zm-1.2
+            -8.266c.837 0 1.358-.554 1.358-1.248
+            -.015-.71-.52-1.248-1.342-1.248-.822 
+            0-1.358.538-1.358 1.248 0 .694.52 
+            1.248 1.327 1.248h.015zM13.458 13.5V9.359c0-2.217
+            -1.183-3.247-2.763-3.247-1.274 
+            0-1.845.7-2.165 1.193v-1.025H6.129c.03.662 
+            0 7.22 0 7.22h2.401V9.422c0-.218.016-.436.08
+            -.592.174-.436.571-.889 1.238-.889.873 
+            0 1.222.671 1.222 1.654V13.5h2.388z"/>
+        </svg>
+      </a>
+
+      <!-- Resume -->
+      <a href="anilyadavResume.pdf" target="_blank" aria-label="Resume">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 
+            2h8a2 2 0 0 0 2-2V5.5L9.5 0H4zm3 
+            6v2h2V6H7zm0 3v2h2V9H7z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+        "color": { "value": "#ff5722" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.6 },
+        "size": { "value": 3, "random": true },
+        "line_linked": { "enable": true, "distance": 150, "color": "#ff5722", "opacity": 0.5, "width": 1 },
+        "move": { "enable": true, "speed": 2, "out_mode": "out" }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": true, "mode": "repulse" },
+          "onclick": { "enable": true, "mode": "push" }
+        },
+        "modes": { "repulse": { "distance": 120 }, "push": { "particles_nb": 6 } }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
